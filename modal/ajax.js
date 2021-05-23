@@ -29,7 +29,7 @@ function traerDatos(){
     }
 }
 
-/*function traerRechazo(){
+function traerRechazo(){
     //console.log('dentro de la funcion');
     const xhttp = new XMLHttpRequest();
     xhttp.open('GET', 'http://arango.dinamita.site/_db/Aforo_dinamita/dinamita/rechazos', true);
@@ -63,7 +63,7 @@ function traerDatos(){
             }
         }
     }
-}*/
+}
 
 function traerAforoD(){
     //console.log('dentro de la funcion');
